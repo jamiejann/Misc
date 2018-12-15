@@ -1,3 +1,8 @@
+#Usage: . rename
+
+
+
+
 jhead -nf%Y-%m-%d_%H-%M-%S *.jpg
 #jhead -autorot -nf%Y-%m-%d_%H-%M-%S *.jpg
  #for i in *.jpg; do
