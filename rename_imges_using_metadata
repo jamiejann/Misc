@@ -1,0 +1,10 @@
+jhead -nf%Y-%m-%d_%H-%M-%S *.jpg
+#jhead -autorot -nf%Y-%m-%d_%H-%M-%S *.jpg
+ #for i in *.jpg; do
+   #j=`jhead "$i" | grep date | sed 's/^File date[^:]\+: \(.\+\)$/\1/'`.jpg
+  	  
+   #j=`jhead "$i" | grep date | sed 's/.* //'`.jpg
+
+
+   #  cp  -i "$i" "$j"
+#	 done
